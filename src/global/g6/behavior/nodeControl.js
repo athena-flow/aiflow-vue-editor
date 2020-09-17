@@ -686,7 +686,7 @@ export default {
           const node = {
             ..._t.info.node,
             id: G6Util.uniqueId(),
-            name: 'XFC_NODE_' + utils.common.firstUpperCase(type),
+            name: 'AIFLOWEDITOR_NODE_' + utils.common.firstUpperCase(type),
             draggable: true,
             x: event.x,
             y: event.y,
@@ -1041,7 +1041,7 @@ export default {
       create (position, content) {
         const _t = this
         if (_t.toolTip.currentTip) {
-          // console.warn('XFC EDITOR WARN:: can\'t creat tootip when currentTip not null!')
+          // console.warn('AIFLOW EDITOR WARN:: can\'t creat tootip when currentTip not null!')
           return
         }
         const canvas = _t.graph.get('canvas')

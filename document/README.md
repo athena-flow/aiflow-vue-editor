@@ -4,7 +4,7 @@
 
 ## Version
 
-| XFC |
+| AIFLOWEDITOR |
 | :-------- |
 | [v3.0.0](https://github.com/athena-flow/aiflow-vue-editor/tree/v3.0.0) |
 | [v2.0.0](https://github.com/athena-flow/aiflow-vue-editor/tree/v2.0.0) |

@@ -9,7 +9,7 @@ export default {
   name,
   author,
   description,
-  title: 'XFC',
+  title: 'AIFLOWEDITOR',
   logo: require('@/assets/images/logo.png'),
   github: 'https://github.com/athena-flow/aiflow-vue-editor',
   site: 'http://athena-flow.com/aiflow-vue-editor/',

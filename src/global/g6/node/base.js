@@ -15,7 +15,7 @@ export default {
     const style = this.getShapeStyle(cfg)
     const keyShape = group.addShape(shapeType, {
       attrs: style,
-      name: 'XFCNodeKeyShape',
+      name: 'AIFLOWEDITORNodeKeyShape',
       draggable: true
     })
     this.keyShape = keyShape

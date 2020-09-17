@@ -1,7 +1,7 @@
 /**
  * Created by aiflow on 2020/5/15
  *
- * 关于XFC
+ * 关于AIFLOWEDITOR
  */
 
 <style scoped lang="less">
@@ -74,7 +74,7 @@
 
 <script>
   export default {
-    name: 'AboutXFC',
+    name: 'AboutAIFLOWEDITOR',
     data () {
       return {
         isShow: false

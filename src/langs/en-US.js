@@ -6,7 +6,7 @@
 
 export default {
   // toolbar
-  L10000: 'XFC',
+  L10000: 'AIFLOWEDITOR',
   L10001: 'Undo',
   L10002: 'Redo',
   L10003: 'Copy',
@@ -43,7 +43,7 @@ export default {
   L10034: 'Canvas background',
   L10035: 'Layout',
   L10036: 'Help',
-  L10037: 'About XFC',
+  L10037: 'About AIFLOWEDITOR',
   L10038: 'Shortcut List',
   L10039: 'Default Background',
   L10040: 'Picture Background',

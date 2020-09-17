@@ -2000,13 +2000,13 @@ export default function (system = {}, disableTools = [], enableTools = [], short
       // 子节点
       children: [
         {
-          name: 'aboutXFC',
-          label: 'about XFC',
+          name: 'aboutAIFLOWEDITOR',
+          label: 'about AIFLOWEDITOR',
           lang: 'L10037',
           type: 'normal',
           icon: '',
           style: {},
-          data: 'aboutXFC',
+          data: 'aboutAIFLOWEDITOR',
           enable: true,
           disabled: false,
           divider: false

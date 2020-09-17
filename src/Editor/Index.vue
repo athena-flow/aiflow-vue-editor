@@ -23,7 +23,7 @@
     <PanelRight :editorConfig="editorConfig" :toolList="toolList" :currentItem="currentItem"></PanelRight>
     <PreviewModel></PreviewModel>
     <ContextMenu :editorData="editorData" :toolList="toolList"></ContextMenu>
-    <AboutXFC ref="aboutXFC"></AboutXFC>
+    <AboutAIFLOWEDITOR ref="aboutAIFLOWEDITOR"></AboutAIFLOWEDITOR>
     <ShortcutList ref="shortcutList" :toolList="toolList" :shortcutMap="shortcutMap"></ShortcutList>
     <History ref="history" @on-revert="doRevert"></History>
   </div>
@@ -36,7 +36,7 @@
   import PanelRight from './containers/PanelRight'
   import PreviewModel from './containers/PreviewModel'
   import ContextMenu from './containers/ContextMenu'
-  import AboutXFC from './containers/AboutXFC'
+  import AboutAIFLOWEDITOR from './containers/AboutAIFLOWEDITOR'
   import ShortcutList from './containers/ShortcutList'
   import History from './containers/History'
   import utils from '@/global/g6/utils'
@@ -61,7 +61,7 @@
       PanelRight,
       PreviewModel,
       ContextMenu,
-      AboutXFC,
+      AboutAIFLOWEDITOR,
       ShortcutList,
       History
     },
@@ -825,7 +825,7 @@
                     } catch (e) {
                       // 提示
                       _t.$Message.error(_t.$t('L10207'))
-                      console.error('XFC EDITOR ERROR:: upload JSON failed!', e)
+                      console.error('AIFLOW EDITOR ERROR:: upload JSON failed!', e)
                     }
                   }
                 }
@@ -890,7 +890,7 @@
                         const imgFile = reader.result
                         _t.editor.emit('background:update', imgFile)
                       } catch (e) {
-                        console.error('XFC EDITOR ERROR:: update background failed!', e)
+                        console.error('AIFLOW EDITOR ERROR:: update background failed!', e)
                       }
                     }
                   }
@@ -935,7 +935,7 @@
             break
           }
           case 'help': {
-            if (['aboutXFC', 'shortcutList'].includes(info.data)) {
+            if (['aboutAIFLOWEDITOR', 'shortcutList'].includes(info.data)) {
               const ref = _t.$refs[info.data]
               if (ref && ref.show) {
                 ref.show()
